@@ -1,3 +1,9 @@
+GIT
+  remote: git@github.com:hananamar/bcrypt-ruby.git
+  revision: cbe335aadd1e8c3ec57ebf0943ddccaf77af0f37
+  specs:
+    bcrypt-ruby (3.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -51,7 +57,6 @@ GEM
     diff-lcs (1.2.4)
     erubis (2.7.0)
     execjs (2.0.2)
-    ffi (1.9.0)
     ffi (1.9.0-x86-mingw32)
     formatador (0.2.4)
     guard (2.0.3)
@@ -84,16 +89,10 @@ GEM
     mini_portile (0.5.1)
     minitest (4.7.5)
     multi_json (1.8.1)
-    nokogiri (1.6.0)
-      mini_portile (~> 0.5.0)
     nokogiri (1.6.0-x86-mingw32)
       mini_portile (~> 0.5.0)
     pg (0.15.1-x86-mingw32)
     polyglot (0.3.3)
-    pry (0.9.12.2)
-      coderay (~> 1.0.5)
-      method_source (~> 0.8)
-      slop (~> 3.4)
     pry (0.9.12.2-x86-mingw32)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -189,6 +188,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  bcrypt-ruby!
   bootstrap-sass (= 2.3.2.0)
   capybara (= 2.1.0)
   coffee-rails (= 4.0.0)
